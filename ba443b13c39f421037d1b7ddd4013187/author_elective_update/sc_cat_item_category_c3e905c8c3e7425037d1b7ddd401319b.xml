@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Tech Support Form">fd7b8a37c35b0e1037d1b7ddd4013144</sc_cat_item>
+        <sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 09:30:25</sys_created_on>
+        <sys_id>c3e905c8c3e7425037d1b7ddd401319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Tech Support Form</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sc_cat_item_category_c3e905c8c3e7425037d1b7ddd401319b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 09:30:25</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sc_cat_item_category_c3e905c8c3e7425037d1b7ddd401319b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Tech Support Form">fd7b8a37c35b0e1037d1b7ddd4013144</sc_cat_item><sc_category display_value="Office">109cdff8c6112276003b17991a09ad65</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 09:30:25</sys_created_on><sys_id>c3e905c8c3e7425037d1b7ddd401319b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Office.Tech Support Form</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sc_cat_item_category_c3e905c8c3e7425037d1b7ddd401319b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 09:30:25</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>792839371</payload_hash>
+        <record_name>Office.Tech Support Form</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 09:30:25</sys_created_on>
+        <sys_id>cfe905c8c3e7425037d1b7ddd40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c00757e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 09:30:25</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>cfe905c8a0e74250b8c2d4eb2f29de9f</update_guid>
+        <update_guid_history>cfe905c8a0e74250b8c2d4eb2f29de9f:792839371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office.Tech Support Form">3c0a810cc3e7425037d1b7ddd40131d4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 09:30:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>21b883873fd84a40bc135e6a9771c900</sys_id>
+        <sys_metadata>c3e905c8c3e7425037d1b7ddd401319b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office.Tech Support Form</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_c3e905c8c3e7425037d1b7ddd401319b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_c3e905c8c3e7425037d1b7ddd401319b">cfe905c8c3e7425037d1b7ddd40131a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 09:30:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

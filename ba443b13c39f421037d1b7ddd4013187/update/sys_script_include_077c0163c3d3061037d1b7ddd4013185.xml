@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1393996_tech_s_0.ClientCallable</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>ClientCallable</name>
+        <script><![CDATA[var ClientCallable = Class.create();
+ClientCallable.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getTaskStateChoice:function()
+	{
+		var tableName = this.getParameter('tableName');
+		var filterQuery = this.getParameter('filterQuery');
+		var task = new GlideRecord(tableName);
+		task.addEncodedQuery(filterQuery);
+		task.query();
+
+		let taskChoice = new Map();
+		while(task.next()){
+			taskChoice.set(task.getValue('sequence').toString(),task.getValue('label').toString());
+		}
+
+		var arr =Array.from(taskChoice);
+		return JSON.stringify(arr);
+		
+	},
+
+	getContactNumber:function()
+	{
+		var reference = this.getParameter('reference');
+		var contactNumber = new GlideRecord('sys_user');
+
+		var data = {};
+		//gs.addInfoMessage('1');
+		if(contactNumber.get(reference))
+		{
+			data.phone_number = contactNumber.phone.toString();
+			//gs.addInfoMessage(contactNumber.phone.toString());
+		}
+		//gs.addInfoMessage('2');
+		return JSON.stringify(data);
+	},
+
+    type: 'ClientCallable'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-15 20:26:17</sys_created_on>
+        <sys_id>077c0163c3d3061037d1b7ddd4013185</sys_id>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_name>ClientCallable</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_script_include_077c0163c3d3061037d1b7ddd4013185</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 11:45:17</sys_updated_on>
+    </sys_script_include>
+</record_update>

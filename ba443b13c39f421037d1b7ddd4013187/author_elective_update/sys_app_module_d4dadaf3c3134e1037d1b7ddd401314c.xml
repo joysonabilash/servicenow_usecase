@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="HR">5cdadaf3c3134e1037d1b7ddd4013136</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Create a new service in this Service Category</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Create New Service</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>40</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>$ng_fd_sc.do?sysparm_stack=no&amp;sysparm_attributes=showSelect%3Afalse%2CstartNewItem%3Atrue%2ComitPrice%3Atrue%2CstartType%3A"sc_cat_item_producer_service"%2CshowSaveAndClose%3Atrue%2CtargetCategory%3A"36ca5af3c3134e1037d1b7ddd4013117"%2CtargetTable%3A"x_1393996_tech_s_0_development"%2CtargetCatalog%3A"e0d08b13c3330100c8b837659bba8fb4"&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>catalog_manager,catalog_editor</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4dadaf3c3134e1037d1b7ddd401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Service</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_app_module_d4dadaf3c3134e1037d1b7ddd401314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:22</sys_updated_on>
+        <timeline_page/>
+        <title>Create New Service</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>new_service</window_name>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_app_module_d4dadaf3c3134e1037d1b7ddd401314c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HR">5cdadaf3c3134e1037d1b7ddd4013136</application><assessment/><device_type/><filter/><hint>Create a new service in this Service Category</hint><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Create New Service</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>40</order><override_menu_roles>false</override_menu_roles><query>$ng_fd_sc.do?sysparm_stack=no&amp;sysparm_attributes=showSelect%3Afalse%2CstartNewItem%3Atrue%2ComitPrice%3Atrue%2CstartType%3A"sc_cat_item_producer_service"%2CshowSaveAndClose%3Atrue%2CtargetCategory%3A"36ca5af3c3134e1037d1b7ddd4013117"%2CtargetTable%3A"x_1393996_tech_s_0_development"%2CtargetCatalog%3A"e0d08b13c3330100c8b837659bba8fb4"&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query><report/><require_confirmation>true</require_confirmation><roles>catalog_manager,catalog_editor</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 20:45:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d4dadaf3c3134e1037d1b7ddd401314c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New Service</sys_name><sys_overrides/><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sys_app_module_d4dadaf3c3134e1037d1b7ddd401314c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 20:45:22</sys_updated_on><timeline_page/><title>Create New Service</title><uncancelable>false</uncancelable><view_name/><window_name>new_service</window_name></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1926790694</payload_hash>
+        <record_name>Create New Service</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:22</sys_created_on>
+        <sys_id>dcdadaf3c3134e1037d1b7ddd401314e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bd4aed920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:22</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d0dadaf311134e10acd9d0fc562fd34e</update_guid>
+        <update_guid_history>d0dadaf311134e10acd9d0fc562fd34e:-1926790694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New Service">abdbda77c3134e1037d1b7ddd401317d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:49:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4e71975fd7df413fa1da36b172343a59</sys_id>
+        <sys_metadata>d4dadaf3c3134e1037d1b7ddd401314c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Service</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_app_module_d4dadaf3c3134e1037d1b7ddd401314c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_d4dadaf3c3134e1037d1b7ddd401314c">dcdadaf3c3134e1037d1b7ddd401314e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:49:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
