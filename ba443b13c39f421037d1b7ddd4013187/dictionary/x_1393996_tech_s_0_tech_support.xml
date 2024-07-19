@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="da2bff5bc353821037d1b7ddd401314e" label="Tech support" max_length="40" name="x_1393996_tech_s_0_tech_support" type="collection">
+    <element db_object_id="da2bff5bc353821037d1b7ddd401314e" label="Tech support" max_length="40" name="x_1393996_tech_s_0_tech_support" text_index="true" type="collection">
         <element choice="1" choice_field="approval" choice_table="task" label="Approval" max_length="40" name="approval" type="choice">
             <choice/>
         </element>
@@ -7,17 +7,17 @@
         <element label="Problem" max_length="32" name="problem" reference="problem" type="reference"/>
         <element label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
         <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return gs.getUserID();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Opened by" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return gs.getUserID();  // return the calculated value&#10;&#10;})(current);" label="Opened by" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" virtual="true"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice/>
         </element>
         <element label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
-        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#13;&#10;&#9;return current.requested_for.phone.toString();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#10;&#9;return current.requested_for.phone.toString();  // return the calculated value&#10;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Opened" max_length="40" name="opened" type="glide_date"/>
         <element label="Additional Comments" max_length="4000" name="additional_comments" type="journal"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;gs.addInfoMessage(current.requested_for.phone.toString());&#13;&#10;&#9;return current.requested_for.phone.toString();  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Contact Number" max_length="40" name="contact_number" type="phone_number_e164"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;return '';&#13;&#10;&#13;&#10;})(current);" choice="1" choice_field="category" choice_table="incident" label="Category" max_length="40" name="category" type="choice">
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;gs.addInfoMessage(current.requested_for.phone.toString());&#10;&#9;return current.requested_for.phone.toString();  // return the calculated value&#10;&#10;})(current);" label="Contact Number" max_length="40" name="contact_number" type="phone_number_e164"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;return '';&#10;&#10;})(current);" choice="1" choice_field="category" choice_table="incident" label="Category" max_length="40" name="category" type="choice">
             <choice/>
         </element>
         <element label="Parent Tech Support number" max_length="32" name="parent_tech_support_number" reference="x_1393996_tech_s_0_tech_support" type="reference"/>
@@ -25,8 +25,8 @@
         <element label="Description" max_length="400" name="description" type="string"/>
         <element choice="1" label="Support Type" mandatory="true" max_length="40" name="support_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Issue" sequence="1" value="Issue"/>
                 <element inactive_on_update="false" label="Request" sequence="2" value="Request"/>
+                <element inactive_on_update="false" label="Issue" sequence="1" value="Issue"/>
             </choice>
         </element>
         <element label="Resolution Notes" max_length="40" name="resolution_notes" type="string"/>

@@ -15,26 +15,28 @@
     g_form.setVisible('category', false);
     g_form.setVisible('approval', false);
     g_form.setDisplay('approval', false);
-    g_form.setDisplay('category', false);
-	g_form.setSectionDisplay('related_records',false);
-	g_form.setSectionDisplay('resolution_information',false);
-	
-	g_form.addInfoMessage(g_form.getSectionNames());
+    g_form.setDisplay('category', false);	
 
     if (g_form.getValue('support_type') == 'Request') {
+		g_form.addInfoMessage('Inside Load Request');
         g_form.setDisplay('category', false);
 		g_form.setVisible('category', false);
         g_form.setDisplay('approval', true);
         g_form.setVisible('approval', true);
+		var sections = g_form.getSections();
+		sections[2].style.display = '';
+		sections[3].style.display = '';
 		setOption('ClientCallable','getTaskStateChoice','sys_choice','name=sc_request^element=request_state','state');
 		setOption('ClientCallable','getTaskStateChoice','sys_choice','name=task^element=approval','approval');
     }
 
     if (g_form.getValue('support_type') == 'Issue') {
+		g_form.addInfoMessage('Inside Issue Load');
         g_form.setDisplay('approval', false);
 		g_form.setVisible('approval',false);
         g_form.setDisplay('category', true);
         g_form.setVisible('category', true);
+		g_form.addInfoMessage(g_form.getValue('state'));
 		g_form.setSectionDisplay('related_records',true);
 		g_form.setSectionDisplay('resolution_information',true);
 		setOption('ClientCallable','getTaskStateChoice','sys_choice','name=task^element=state','state');
@@ -70,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77bd20ebc397c21037d1b7ddd40131e6</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_name>OnLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
@@ -78,10 +80,10 @@
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_script_client_77bd20ebc397c21037d1b7ddd40131e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-16 20:10:41</sys_updated_on>
+        <sys_updated_on>2024-07-19 20:27:00</sys_updated_on>
         <table>x_1393996_tech_s_0_tech_support</table>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>
