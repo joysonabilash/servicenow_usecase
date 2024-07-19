@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1393996_tech_s_0_development</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>roles=x_1393996_tech_s_0_development_user</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:22</sys_created_on>
+        <sys_id>1cdadaf3c3134e1037d1b7ddd401312c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_dictionary_override_1cdadaf3c3134e1037d1b7ddd401312c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:22</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_dictionary_override_1cdadaf3c3134e1037d1b7ddd401312c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>false</display_override><element>assigned_to</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1393996_tech_s_0_development</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual>roles=x_1393996_tech_s_0_development_user</reference_qual><reference_qual_override>true</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 20:45:22</sys_created_on><sys_id>1cdadaf3c3134e1037d1b7ddd401312c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sys_dictionary_override_1cdadaf3c3134e1037d1b7ddd401312c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 20:45:22</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>128297794</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:22</sys_created_on>
+        <sys_id>1cdadaf3c3134e1037d1b7ddd4013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bd4aec520000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:22</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>10dadaf3a5134e10b2074590615e9330</update_guid>
+        <update_guid_history>10dadaf3a5134e10b2074590615e9330:128297794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:46:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>0362242738d4445ba3f9d4bcedb81451</sys_id>
+        <sys_metadata>1cdadaf3c3134e1037d1b7ddd401312c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent display_value="">4bca5af3c3134e1037d1b7ddd4013159</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_1cdadaf3c3134e1037d1b7ddd401312c</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_1cdadaf3c3134e1037d1b7ddd401312c">1cdadaf3c3134e1037d1b7ddd4013130</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:46:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

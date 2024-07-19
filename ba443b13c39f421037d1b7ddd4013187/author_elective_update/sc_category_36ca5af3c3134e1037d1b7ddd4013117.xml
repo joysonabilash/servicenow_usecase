@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description>Development Services</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:16</sys_created_on>
+        <sys_id>36ca5af3c3134e1037d1b7ddd4013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sc_category_36ca5af3c3134e1037d1b7ddd4013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:16</sys_updated_on>
+        <title>HR</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=36ca5af3c3134e1037d1b7ddd4013117"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sc_category_36ca5af3c3134e1037d1b7ddd4013117</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description>Development Services</description><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</parent><roles/><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 20:45:16</sys_created_on><sys_id>36ca5af3c3134e1037d1b7ddd4013117</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sc_category_36ca5af3c3134e1037d1b7ddd4013117</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 20:45:16</sys_updated_on><title>HR</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=36ca5af3c3134e1037d1b7ddd4013117"/></record_update>]]></payload>
+        <payload_hash>676175999</payload_hash>
+        <record_name>HR</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:16</sys_created_on>
+        <sys_id>07ca5af3c3134e1037d1b7ddd401311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bd4ad7420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:16</sys_updated_on>
+        <type>Category</type>
+        <update_guid>0bca5af340134e107c96f63cac2bcf1b</update_guid>
+        <update_guid_history>0bca5af340134e107c96f63cac2bcf1b:676175999</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HR">264b5eb3c3134e1037d1b7ddd40131da</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:47:26</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>4928fc6fdcc8445893e34a4be00b42c4</sys_id>
+        <sys_metadata>36ca5af3c3134e1037d1b7ddd4013117</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sc_category_36ca5af3c3134e1037d1b7ddd4013117</sys_update_name>
+        <sys_update_version display_value="sc_category_36ca5af3c3134e1037d1b7ddd4013117">07ca5af3c3134e1037d1b7ddd401311c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:47:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

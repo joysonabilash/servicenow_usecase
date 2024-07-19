@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:21</sys_created_on>
+        <sys_id>80da9af3c3134e1037d1b7ddd40131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1393996_tech_s_0_development.work_notes.x_1393996_tech_s_0_development_user</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_security_acl display_value="x_1393996_tech_s_0_development.work_notes">40da9af3c3134e1037d1b7ddd40131f9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_80da9af3c3134e1037d1b7ddd40131fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:21</sys_updated_on>
+        <sys_user_role display_value="x_1393996_tech_s_0_development_user" name="x_1393996_tech_s_0_development_user">4fca5af3c3134e1037d1b7ddd401311c</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_security_acl_role_80da9af3c3134e1037d1b7ddd40131fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 20:45:21</sys_created_on><sys_id>80da9af3c3134e1037d1b7ddd40131fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1393996_tech_s_0_development.work_notes.x_1393996_tech_s_0_development_user</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_security_acl display_value="x_1393996_tech_s_0_development.work_notes">40da9af3c3134e1037d1b7ddd40131f9</sys_security_acl><sys_update_name>sys_security_acl_role_80da9af3c3134e1037d1b7ddd40131fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 20:45:21</sys_updated_on><sys_user_role display_value="x_1393996_tech_s_0_development_user" name="x_1393996_tech_s_0_development_user">4fca5af3c3134e1037d1b7ddd401311c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>311836183</payload_hash>
+        <record_name>x_1393996_tech_s_0_development.work_notes.x_1393996_tech_s_0_development_user</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:21</sys_created_on>
+        <sys_id>8cda9af3c3134e1037d1b7ddd40131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bd4ae9f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:21</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>80da9af372134e1072579ecf0abaf9fe</update_guid>
+        <update_guid_history>80da9af372134e1072579ecf0abaf9fe:311836183</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1393996_tech_s_0_development.work_notes.x_1393996_tech_s_0_development_user">161b1a37c3134e1037d1b7ddd4013104</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:46:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1460dbf0fc494abd9288e030efbfe3c1</sys_id>
+        <sys_metadata>80da9af3c3134e1037d1b7ddd40131fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1393996_tech_s_0_development.work_notes.x_1393996_tech_s_0_development_user</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent display_value="">40da9af3c3134e1037d1b7ddd40131f9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_80da9af3c3134e1037d1b7ddd40131fc</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_80da9af3c3134e1037d1b7ddd40131fc">8cda9af3c3134e1037d1b7ddd40131fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:46:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

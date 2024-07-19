@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge">
+    <sys_gauge action="DELETE">
+        <active>true</active>
+        <aggregate>COUNT</aggregate>
+        <attributes/>
+        <fieldname/>
+        <group_field/>
+        <lower_limit/>
+        <name>Active Requests by Priority</name>
+        <order/>
+        <other_threshold>-2</other_threshold>
+        <parent/>
+        <query/>
+        <report display_value="Active Requests by Priority">a0dadaf3c3134e1037d1b7ddd401319a</report>
+        <roles/>
+        <stack_field/>
+        <sys_class_name>sys_gauge</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:23</sys_created_on>
+        <sys_id>20dadaf3c3134e1037d1b7ddd40131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Requests by Priority</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_gauge_20dadaf3c3134e1037d1b7ddd40131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:23</sys_updated_on>
+        <tablename>service_task</tablename>
+        <title>Active Requests by Priority</title>
+        <type>report</type>
+        <upper_limit/>
+        <url/>
+        <view/>
+    </sys_gauge>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_gauge_20dadaf3c3134e1037d1b7ddd40131a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_gauge"><sys_gauge action="INSERT_OR_UPDATE"><active>true</active><aggregate>COUNT</aggregate><attributes/><fieldname/><group_field/><lower_limit/><name>Active Requests by Priority</name><order/><other_threshold>-2</other_threshold><parent/><query/><report display_value="Active Requests by Priority">a0dadaf3c3134e1037d1b7ddd401319a</report><roles/><stack_field/><sys_class_name>sys_gauge</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 20:45:23</sys_created_on><sys_id>20dadaf3c3134e1037d1b7ddd40131a9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Active Requests by Priority</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sys_gauge_20dadaf3c3134e1037d1b7ddd40131a9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 20:45:23</sys_updated_on><tablename>service_task</tablename><title>Active Requests by Priority</title><type>report</type><upper_limit/><url/><view/></sys_gauge></record_update>]]></payload>
+        <payload_hash>-1865663534</payload_hash>
+        <record_name>Active Requests by Priority</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:45:23</sys_created_on>
+        <sys_id>ecdadaf3c3134e1037d1b7ddd40131aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bd4aeffe0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:45:23</sys_updated_on>
+        <type>Gauge</type>
+        <update_guid>e0dadaf3ff134e10d9a77a858ca539aa</update_guid>
+        <update_guid_history>e0dadaf3ff134e10d9a77a858ca539aa:-1865663534</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 20:46:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_gauge">sys_gauge</sys_db_object>
+        <sys_id>035373822da54bf881ba0c32e2861e10</sys_id>
+        <sys_metadata>20dadaf3c3134e1037d1b7ddd40131a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Active Requests by Priority</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent display_value="Service Task">311000fef8b2021008dd9cfea425ac7b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_gauge_20dadaf3c3134e1037d1b7ddd40131a9</sys_update_name>
+        <sys_update_version display_value="sys_gauge_20dadaf3c3134e1037d1b7ddd40131a9">ecdadaf3c3134e1037d1b7ddd40131aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 20:46:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
