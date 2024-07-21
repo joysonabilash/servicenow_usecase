@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Tech Support">1dbe0655c32306d037d1b7ddd40131ba</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1393996_tech_s_0_tech_support</name>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1393996_tech_s_0.ts_user,x_1393996_tech_s_0.ts_admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-21 11:42:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>63cd0e1dc3efc2d037d1b7ddd401318e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_app_module_63cd0e1dc3efc2d037d1b7ddd401318e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-21 13:18:27</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_app_module_63cd0e1dc3efc2d037d1b7ddd401318e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Tech Support">1dbe0655c32306d037d1b7ddd40131ba</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1393996_tech_s_0_tech_support</name><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1393996_tech_s_0.ts_user,x_1393996_tech_s_0.ts_admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-21 11:42:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>63cd0e1dc3efc2d037d1b7ddd401318e</sys_id><sys_mod_count>10</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sys_app_module_63cd0e1dc3efc2d037d1b7ddd401318e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-21 13:18:27</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1983392467</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>557fd644c3afc25037d1b7ddd4013142</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-21 13:18:27</sys_created_on>
+        <sys_id>5e74eaddc32b06d037d1b7ddd4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190d5718d8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-21 13:18:27</sys_updated_on>
+        <type>Module</type>
+        <update_guid>5274eadd412b06d033bb44a2c6879597</update_guid>
+        <update_guid_history>5274eadd412b06d033bb44a2c6879597:1983392467,5234225d852b06d0fcdded9fad7a2bc6:104935208,9083e651e82b06d0232555d5f4c85534:-1340998229,8c63a2d1942b06d0ca72a9f475e0203a:-370756688,b543e651472b06d08243e1f6133755a1:-70740708,262366116c2b06d0b8bb015e286765c8:-1251943581,69136a9d43e706d0dced88ecf33d08ee:1600650512,85f22addbfe706d0fcd4237308987db9:-1408502261,760fc655502306d0a8f940d3e271e5ed:1846063700,21de46d51b2306d0b1f000f7f70f00cc:1402546623,fc7e0a157befc2d01c5f1fc7465f4d60:1568553568</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">f2b42eddc32b06d037d1b7ddd40131c5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-21 13:19:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0a9504f2393c4e21bf758dbbce59f779</sys_id>
+        <sys_metadata>63cd0e1dc3efc2d037d1b7ddd401318e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_app_module_63cd0e1dc3efc2d037d1b7ddd401318e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_63cd0e1dc3efc2d037d1b7ddd401318e">5e74eaddc32b06d037d1b7ddd4013197</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-21 13:19:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

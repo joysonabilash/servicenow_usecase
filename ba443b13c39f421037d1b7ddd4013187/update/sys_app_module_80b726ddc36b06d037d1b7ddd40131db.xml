@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Tech Support">1dbe0655c32306d037d1b7ddd40131ba</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_1393996_tech_s_0_tech_support">opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Opened by me</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1393996_tech_s_0_tech_support</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1393996_tech_s_0.ts_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-21 13:33:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80b726ddc36b06d037d1b7ddd40131db</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Opened by me</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_app_module_80b726ddc36b06d037d1b7ddd40131db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-21 13:42:23</sys_updated_on>
+        <timeline_page/>
+        <title>Opened by me</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

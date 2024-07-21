@@ -44,19 +44,26 @@ ClientCallable.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 		return JSON.stringify(data);
 	},
 
+	getCurrentUSer : function()
+	{
+		var data = {};
+		data.user = gs.getUserID();
+		return JSON.stringify(data);
+	},
+	
     type: 'ClientCallable'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-15 20:26:17</sys_created_on>
         <sys_id>077c0163c3d3061037d1b7ddd4013185</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_name>ClientCallable</sys_name>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_script_include_077c0163c3d3061037d1b7ddd4013185</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-17 11:45:17</sys_updated_on>
+        <sys_updated_on>2024-07-21 14:54:48</sys_updated_on>
     </sys_script_include>
 </record_update>

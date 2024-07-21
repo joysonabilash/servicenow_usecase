@@ -7,9 +7,17 @@
         <element label="Problem" max_length="32" name="problem" reference="problem" type="reference"/>
         <element label="Resolved by" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
         <element label="Assignment group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#9;return gs.getUserID();  // return the calculated value&#10;&#10;})(current);" label="Opened by" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;if(current.opened_by==''){&#13;&#10;&#9;&#9;return gs.getUserID();  // return the calculated value&#13;&#10;&#9;}&#13;&#10;&#9;&#13;&#10;})(current);" label="Opened by" max_length="32" name="opened_by" read_only="true" reference="sys_user" type="reference" virtual="true"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Closed Rejected" sequence="0" value="Closed Rejected"/>
+                <element inactive_on_update="false" label="Pending" sequence="0" value="Pending"/>
+                <element inactive_on_update="false" label="Work in Progress" sequence="0" value="Work in Progress"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="0" value="Pending Approval"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="0" value="Closed Complete"/>
+                <element inactive_on_update="false" label="Closed Skipped" sequence="0" value="Closed Skipped"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="0" value="Closed Incomplete"/>
+            </choice>
         </element>
         <element label="Work Notes" max_length="4000" name="work_notes" type="journal"/>
         <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#10;&#10;&#9;// Add your code here&#10;&#10;&#9;return current.requested_for.phone.toString();  // return the calculated value&#10;&#10;})(current);" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

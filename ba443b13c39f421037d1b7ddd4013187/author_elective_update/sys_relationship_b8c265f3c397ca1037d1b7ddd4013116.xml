@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_1393996_tech_s_0_tech_support</basic_apply_to>
+        <basic_query_from>sysapproval_approver</basic_query_from>
+        <insert_callback/>
+        <name>Approvers</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addEncodedQuery('document_id='+parent.sys_id.toString());
+	//current.query();
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 16:43:21</sys_created_on>
+        <sys_id>b8c265f3c397ca1037d1b7ddd4013116</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Approvers</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_relationship_b8c265f3c397ca1037d1b7ddd4013116</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 08:35:35</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=b8c265f3c397ca1037d1b7ddd4013116"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_relationship_b8c265f3c397ca1037d1b7ddd4013116</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_1393996_tech_s_0_tech_support&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;sysapproval_approver&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Approvers&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addEncodedQuery('document_id='+parent.sys_id.toString());
+	//current.query();
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-07-16 16:43:21&lt;/sys_created_on&gt;&lt;sys_id&gt;b8c265f3c397ca1037d1b7ddd4013116&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Approvers&lt;/sys_name&gt;&lt;sys_package display_value="Tech support" source="x_1393996_tech_s_0"&gt;ba443b13c39f421037d1b7ddd4013187&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Tech support"&gt;ba443b13c39f421037d1b7ddd4013187&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_b8c265f3c397ca1037d1b7ddd4013116&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-07-18 08:35:35&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=b8c265f3c397ca1037d1b7ddd4013116"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1413549478</payload_hash>
+        <record_name>Approvers</record_name>
+        <reverted_from/>
+        <source>557fd644c3afc25037d1b7ddd4013142</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-18 08:35:35</sys_created_on>
+        <sys_id>69f6c29cc32b4a5037d1b7ddd4013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190c4fb813a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-18 08:35:35</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>edf6c29c232b4a50fb621fe7c0aa9f05</update_guid>
+        <update_guid_history>edf6c29c232b4a50fb621fe7c0aa9f05:-1413549478,7fb60e5cab2b4a50085c36be796d15ff:-545082438,c6268e1c4a2b4a50ea787b395c25c77f:-1413549478,8fbd974c3d67465036249748bf5dde08:692347118,737dd70c27274650aa2a2c031e3d5333:1242155660,0f5dd7883f674650f1c7cf5233e36083:338646636,ae7c1f44d7e34650bd7c289475f24ae6:-1167148510,40ebd3c418274650f3276fd010e91fe5:-833697295,a1f15f043fef065034afd346535bcd0f:-2006932500,29f3ceb7a7170e10defcd9e7b45f1023:1079972272,8f636df74597ca10c64701ee248a6b4d:-1958815467</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-21 09:41:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>0959e6466ebe471c824460d7936f7a04</sys_id>
+        <sys_metadata>b8c265f3c397ca1037d1b7ddd4013116</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvers</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent display_value="Tech support">da2bff5bc353821037d1b7ddd401314e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_relationship_b8c265f3c397ca1037d1b7ddd4013116</sys_update_name>
+        <sys_update_version display_value="sys_relationship_b8c265f3c397ca1037d1b7ddd4013116">69f6c29cc32b4a5037d1b7ddd4013106</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-21 09:41:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

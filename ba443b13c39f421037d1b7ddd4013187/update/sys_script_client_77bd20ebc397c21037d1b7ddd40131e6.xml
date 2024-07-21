@@ -15,39 +15,60 @@
     g_form.setVisible('category', false);
     g_form.setVisible('approval', false);
     g_form.setDisplay('approval', false);
-    g_form.setDisplay('category', false);	
+    g_form.setDisplay('category', false);
+
+	
 
     if (g_form.getValue('support_type') == 'Request') {
-		g_form.addInfoMessage('Inside Load Request');
+        g_form.addInfoMessage('Inside Load Request');
         g_form.setDisplay('category', false);
-		g_form.setVisible('category', false);
+        g_form.setVisible('category', false);
         g_form.setDisplay('approval', true);
         g_form.setVisible('approval', true);
-		var sections = g_form.getSections();
-		sections[2].style.display = '';
-		sections[3].style.display = '';
-		setOption('ClientCallable','getTaskStateChoice','sys_choice','name=sc_request^element=request_state','state');
-		setOption('ClientCallable','getTaskStateChoice','sys_choice','name=task^element=approval','approval');
+		//g_form.hideRelatedList('x_1393996_tech_s_0_support_task');
+		g_form.hideRelatedList('x_1393996_tech_s_0_tech_support');
+		//g_form.hideRelatedList('sysapproval_approver');
+        var sections = g_form.getSections();
+        sections[2].style.display = '';
+        sections[3].style.display = '';
+		if(g_form.getValue('support_type')===''){
+			stateValue = '--None--';
+		}else{
+        var state = g_form.getValue('state');
+		}
+        setOption('ClientCallable', 'getTaskStateChoice', 'sys_choice', 'name=sc_request^element=request_state', 'state',state);
+        //setOption('ClientCallable', 'getTaskStateChoice', 'sys_choice', 'name=task^element=approval', 'approval',approval);
+        g_form.setValue('state', state);
+        g_form.setValue('approval', approval);
     }
 
     if (g_form.getValue('support_type') == 'Issue') {
-		g_form.addInfoMessage('Inside Issue Load');
+        g_form.addInfoMessage('Inside Issue Load');
         g_form.setDisplay('approval', false);
-		g_form.setVisible('approval',false);
+        g_form.setVisible('approval', false);
         g_form.setDisplay('category', true);
         g_form.setVisible('category', true);
-		g_form.addInfoMessage(g_form.getValue('state'));
-		g_form.setSectionDisplay('related_records',true);
-		g_form.setSectionDisplay('resolution_information',true);
-		setOption('ClientCallable','getTaskStateChoice','sys_choice','name=task^element=state','state');
+g_form.hideRelatedList('x_1393996_tech_s_0_support_task');
+		//g_form.hideRelatedList('x_1393996_tech_s_0_tech_support');
+		g_form.hideRelatedList('sysapproval_approver');
+
+        var stateValue = '';
+		
+		if(g_form.getValue('support_type')==='')
+		{
+			stateValue = '--None--';
+		}
+		else
+		{
+			stateValue = g_form.getValue('state');
+		}
+        g_form.setSectionDisplay('related_records', true);
+        g_form.setSectionDisplay('resolution_information', true);
+        setOption('ClientCallable', 'getTaskStateChoice', 'sys_choice', 'name=task^element=state', 'state',stateValue);
+        g_form.getControl('state').setAttribute('state',state);
     }
 
-    // var dict = [{'Label': 'Issue','Value': 'Issue'}, {'Label': 'Request','Value': 'Request'}];
-    // dict.forEach((item) => {
-    //     g_form.addOption('support_type', item.Label, item.Value);
-    // });
-
-    function setOption(className, functionName, tableName, filterQuery, fieldName) {
+    function setOption(className, functionName, tableName, filterQuery, fieldName,defaultValue) {
         var getChoice = new GlideAjax(className);
         getChoice.addParam('sysparm_name', functionName);
         getChoice.addParam('tableName', tableName);
@@ -55,15 +76,14 @@
         getChoice.getXMLAnswer(function(response) {
             var mapValue = JSON.parse(response);
             mapValue = mapValue.sort();
-			var currentValue = g_form.getValue(fieldName);
-			
-            for (let i = 0; i < mapValue.length; i++) {
-				if(currentValue!=mapValue[i][1]){
-                	g_form.addOption(fieldName, mapValue[i][1], mapValue[i][1], Number(mapValue[i][0]));
-				}
+            var currentValue = g_form.getValue(fieldName);
+			g_form.addOption(fieldName,defaultValue,defaultValue,1);
+            for (var i = 0; i < mapValue.length; i++) {
+                if (currentValue != mapValue[i][1]) {
+                    g_form.addOption(fieldName, mapValue[i][1], mapValue[i][1], Number(mapValue[i][0]));
+                }
             }
         });
-
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -72,7 +92,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77bd20ebc397c21037d1b7ddd40131e6</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>66</sys_mod_count>
         <sys_name>OnLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
@@ -80,7 +100,7 @@
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_script_client_77bd20ebc397c21037d1b7ddd40131e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-19 20:27:00</sys_updated_on>
+        <sys_updated_on>2024-07-21 09:38:02</sys_updated_on>
         <table>x_1393996_tech_s_0_tech_support</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
