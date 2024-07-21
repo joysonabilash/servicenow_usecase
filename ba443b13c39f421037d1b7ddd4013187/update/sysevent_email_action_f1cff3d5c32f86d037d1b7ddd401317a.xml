@@ -5,7 +5,7 @@
         <active>true</active>
         <advanced_condition/>
         <affected_field_on_event/>
-        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <category display_value="IT Service Management" name="IT Service Management">b69d02137f232200ee2e108c3ffa9142</category>
         <collection>x_1393996_tech_s_0_tech_support</collection>
         <condition/>
         <content_type>text/html</content_type>
@@ -36,42 +36,40 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi ${requested_for.manager.manager.name},</p>
-<p>This is to inform you that your approval is required to proceed with the ${support_type}.</p>
-<p>Tech Support record id - ${number}</p>
-<p>Requested for - Requested for Name: ${requested_for.name}</p>
-<p>Description - Description: ${description}</p>
-<p>Short Description - Short description: ${short_description}</p>]]></message_html>
+        <message_html><![CDATA[<p><br />Hi ${requested_for.name},</p>
+<p>This is to inform you that your request is ${state}.</p>
+<p>Please find the notes below.</p>
+<p>Notes: ${work_notes}${resolution_notes}</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Second Level Approval</name>
+        <name>Closure Email</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>requested_for.manager.manager</recipient_fields>
+        <recipient_fields>requested_for</recipient_fields>
         <recipient_groups/>
         <recipient_users>joyson@cconnectnow.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Approval Requested - ${number}</subject>
+        <subject>${number} : ${state}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-07-18 12:33:03</sys_created_on>
+        <sys_created_on>2024-07-21 19:58:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>8c1df618c3af8a5037d1b7ddd401317c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Second Level Approval</sys_name>
+        <sys_id>f1cff3d5c32f86d037d1b7ddd401317a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Closure Email</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
         <sys_policy/>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
-        <sys_update_name>sysevent_email_action_8c1df618c3af8a5037d1b7ddd401317c</sys_update_name>
+        <sys_update_name>sysevent_email_action_f1cff3d5c32f86d037d1b7ddd401317a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 19:56:45</sys_updated_on>
+        <sys_updated_on>2024-07-21 20:24:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Employee notification template">1462e7ca918a3010f877b1d70a4d6a3d</template>
         <type>email</type>
