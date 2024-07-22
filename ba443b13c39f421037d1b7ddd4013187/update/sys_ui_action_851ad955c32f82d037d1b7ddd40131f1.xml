@@ -30,20 +30,31 @@
         <name>Flow</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var gr = new GlideRecord('sys_flow_context');
+        <script><![CDATA[/*function runClient()
+{
+	var getPhone = new GlideAjax('ClientCallable');
+    getPhone.addParam('sysparm_name', 'getFlowLink');
+    getPhone.addParam('sys_id', g_form.getValue('sys_id'));
+	getPhone.getXMLAnswer(getResponse);
+
+    function getResponse(response) {
+        var res = JSON.parse(response);
+		top.window.open(res.link,'_blank') ;
+    }
+}*/
+
+var gr = new GlideRecord('sys_flow_context');
 gr.addQuery('source_record', current.sys_id);
 gr.query();
 if (gr.next()) {
-    var url = '/$flow-designer.do?sysparm_use_polaris=false#/operations/context/' + gr.sys_id.toString();
+    var url = '$flow-designer.do?sysparm_nostack=true#/operations/context/' + gr.sys_id.toString();
     action.setRedirectURL(url);
-	gs.openURL(url);
-	//window.open(url,'_blank').focus();	
 } else {
     gs.addErrorMessage("Record not found");
     action.setRedirectURL(_blank);
     gs.info(gr.sys_id);
 }]]></script>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -53,7 +64,7 @@ if (gr.next()) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>851ad955c32f82d037d1b7ddd40131f1</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
@@ -61,9 +72,9 @@ if (gr.next()) {
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_ui_action_851ad955c32f82d037d1b7ddd40131f1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 21:39:13</sys_updated_on>
+        <sys_updated_on>2024-07-22 10:24:01</sys_updated_on>
         <table>x_1393996_tech_s_0_tech_support</table>
         <ui11_compatible>true</ui11_compatible>
-        <ui16_compatible>true</ui16_compatible>
+        <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
 </record_update>

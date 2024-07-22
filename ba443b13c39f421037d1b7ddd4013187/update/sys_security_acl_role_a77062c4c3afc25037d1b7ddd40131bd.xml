@@ -13,6 +13,6 @@
         <sys_update_name>sys_security_acl_role_a77062c4c3afc25037d1b7ddd40131bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-07-17 15:48:39</sys_updated_on>
-        <sys_user_role display_value="x_1393996_tech_s_0.admin" name="x_1393996_tech_s_0.admin">3e447b13c39f421037d1b7ddd4013172</sys_user_role>
+        <sys_user_role display_value="x_1393996_tech_s_0.ts_admin" name="x_1393996_tech_s_0.ts_admin">3e447b13c39f421037d1b7ddd4013172</sys_user_role>
     </sys_security_acl_role>
 </record_update>

@@ -17,7 +17,7 @@
     g_form.setDisplay('approval', false);
     g_form.setDisplay('category', false);
 
-	
+
 
     if (g_form.getValue('support_type') == 'Request') {
         g_form.addInfoMessage('Inside Load Request');
@@ -48,9 +48,6 @@
         g_form.setVisible('approval', false);
         g_form.setDisplay('category', true);
         g_form.setVisible('category', true);
-g_form.hideRelatedList('x_1393996_tech_s_0_support_task');
-		//g_form.hideRelatedList('x_1393996_tech_s_0_tech_support');
-		g_form.hideRelatedList('sysapproval_approver');
 
         var stateValue = '';
 		
@@ -64,6 +61,8 @@ g_form.hideRelatedList('x_1393996_tech_s_0_support_task');
 		}
         g_form.setSectionDisplay('related_records', true);
         g_form.setSectionDisplay('resolution_information', true);
+		g_form.hideRelatedList('REL:3617aaedc3e3cad037d1b7ddd4013104');//approver
+		g_form.hideRelatedList('REL:1e79ea69c327cad037d1b7ddd4013141');//support task	
         setOption('ClientCallable', 'getTaskStateChoice', 'sys_choice', 'name=incident^element=incident_state', 'state',stateValue);
         g_form.getControl('state').setAttribute('state',state);
     }
@@ -92,7 +91,7 @@ g_form.hideRelatedList('x_1393996_tech_s_0_support_task');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77bd20ebc397c21037d1b7ddd40131e6</sys_id>
-        <sys_mod_count>67</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>OnLoad</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
@@ -100,7 +99,7 @@ g_form.hideRelatedList('x_1393996_tech_s_0_support_task');
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_script_client_77bd20ebc397c21037d1b7ddd40131e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 18:27:59</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:26:08</sys_updated_on>
         <table>x_1393996_tech_s_0_tech_support</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

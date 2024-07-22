@@ -6,7 +6,7 @@
         <dashboard display_value="Tech support">4f938430e5e7c29058fb636935049c72</dashboard>
         <group/>
         <owner>false</owner>
-        <role display_value="x_1393996_tech_s_0.user" name="x_1393996_tech_s_0.user">87447b13c39f421037d1b7ddd4013178</role>
+        <role display_value="x_1393996_tech_s_0.ts_user" name="x_1393996_tech_s_0.ts_user">87447b13c39f421037d1b7ddd4013178</role>
         <sys_class_name>par_dashboard_permission</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 12:18:44</sys_created_on>

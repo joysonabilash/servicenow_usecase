@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=201362000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=236606000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>987aa47cc327069037d1b7ddd40131b9</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>Issue Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_hub_flow_987aa47cc327069037d1b7ddd40131b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=987aa47cc327069037d1b7ddd40131b9"/>
@@ -251,10 +251,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 20:02:57</sys_created_on>
         <sys_id>3f0148e9c36f86d037d1b7ddd40131fb</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>ab4bba5a-894f-4926-a92d-54bbc6940bc6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3f0148e9c36f86d037d1b7ddd40131fb"/>
@@ -405,10 +405,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:16</sys_created_on>
         <sys_id>5aaef57cc3a7869037d1b7ddd4013104</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>114</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>8cdac15e-3d87-4c61-866c-0491d2bbd4bb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5aaef57cc3a7869037d1b7ddd4013104"/>
@@ -559,10 +559,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 15:08:20</sys_created_on>
         <sys_id>607ae8f8c367069037d1b7ddd4013160</sys_id>
-        <sys_mod_count>132</sys_mod_count>
+        <sys_mod_count>138</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>80bcf8ef-b84b-4337-b359-89c0bd4e34aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=607ae8f8c367069037d1b7ddd4013160"/>
@@ -625,11 +625,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 15:08:20</sys_created_on>
         <sys_id>ac7ae8f8c367069037d1b7ddd4013162</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 22:02:22</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:44:58</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>category=inquiry^state=fd-scripted^assigned_to=fd-scripted^assignment_group=fd-scripted^watchlist=fd-scripted^parent_tech_support_number={{subflow.tech_support}}</value>
+        <value>category=inquiry^state=fd-scripted^assignment_group=fd-scripted^watchlist=fd-scripted^parent_tech_support_number={{subflow.tech_support}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=607ae8f8c367069037d1b7ddd4013160^sys_idNOT INb0aea03cc3e7069037d1b7ddd401310d"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -637,13 +637,13 @@
         <input_name>values</input_name>
         <instance>607ae8f8c367069037d1b7ddd4013160</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"assignment_group":{"scriptActive":true,"script":"if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"IN\"){    \n    return getSysID(\u0027Techsupport_India\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"US\"){\n    return getSysID(\u0027Techsupport_USA\u0027);\n}\nif(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"GB\"){\n    return getSysID(\u0027Techsupport_UK\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"RU\"){\n    return getSysID(\u0027Techsupport_Russia\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"CN\"){\n    return getSysID(\u0027Techsupport_China\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"AU\"){\n    return getSysID(\u0027Techsupport_Australia\u0027);\n}\nelse{\nreturn getSysID(\u0027Techsupport_Others\u0027);\n}\n\nfunction getSysID(groupName){\n    var gr \u003d new GlideRecord(\u0027sys_user_group\u0027);\n    gr.addEncodedQuery(\u0027name\u003d\u0027+groupName);\n    gr.query();\n    while(gr.next())    {\n        return gr.getValue(\u0027sys_id\u0027).toString();\n    }\n}","savedValue":""},"state":{"scriptActive":true,"script":"return \u0027In Progress\u0027;","savedValue":"-- None --"},"watchlist":{"scriptActive":true,"script":"return fd_data.subflow_inputs.tech_support.requested_for.manager;","savedValue":""},"assigned_to":{"scriptActive":true,"script":"if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"IN\"){    \n    return getSysID(\u0027Techsupport_India\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"US\"){\n    return getSysID(\u0027Techsupport_USA\u0027);\n}\nif(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"GB\"){\n    return getSysID(\u0027Techsupport_UK\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"RU\"){\n    return getSysID(\u0027Techsupport_Russia\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"CN\"){\n    return getSysID(\u0027Techsupport_China\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"AU\"){\n    return getSysID(\u0027Techsupport_Australia\u0027);\n}\nelse{\nreturn getSysID(\u0027Techsupport_Others\u0027);\n}\n\n\nfunction getSysID(groupName){\n    var gr \u003d new GlideRecord(\u0027sys_user_grmember\u0027);\n    gr.addEncodedQuery(\u0027group.name\u003d\u0027+groupName+\u0027^user.titleLIKEdeveloper\u0027);\n    gr.query();\n    while(gr.next())    {\n        return gr.getValue(\u0027user\u0027).toString();\n    }\n}","savedValue":""}}</script>
+        <script>{"assignment_group":{"scriptActive":true,"script":"if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"IN\"){    \n    return getSysID(\u0027Techsupport_India\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"US\"){\n    return getSysID(\u0027Techsupport_USA\u0027);\n}\nif(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"GB\"){\n    return getSysID(\u0027Techsupport_UK\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"RU\"){\n    return getSysID(\u0027Techsupport_Russia\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"CN\"){\n    return getSysID(\u0027Techsupport_China\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"AU\"){\n    return getSysID(\u0027Techsupport_Australia\u0027);\n}\nelse{\nreturn getSysID(\u0027Techsupport_Others\u0027);\n}\n\nfunction getSysID(groupName){\n    var gr \u003d new GlideRecord(\u0027sys_user_group\u0027);\n    gr.addEncodedQuery(\u0027name\u003d\u0027+groupName);\n    gr.query();\n    while(gr.next())    {\n        return gr.getValue(\u0027sys_id\u0027).toString();\n    }\n}","savedValue":""},"state":{"scriptActive":true,"script":"return \u0027In Progress\u0027;","savedValue":"-- None --"},"watchlist":{"scriptActive":true,"script":"return fd_data.subflow_inputs.tech_support.requested_for.manager;","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 15:26:39</sys_created_on>
         <sys_id>b0aea03cc3e7069037d1b7ddd401310d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 22:02:22</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:44:58</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=607ae8f8c367069037d1b7ddd4013160"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -662,10 +662,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 21:43:38</sys_created_on>
         <sys_id>6e1894edc3e7c6d037d1b7ddd40131d5</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>7e3155d4-1cd8-4e00-a5eb-107a53fb7365</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6e1894edc3e7c6d037d1b7ddd40131d5"/>
@@ -829,10 +829,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:21:17</sys_created_on>
         <sys_id>7bcf3df4c3e7869037d1b7ddd40131eb</sys_id>
-        <sys_mod_count>102</sys_mod_count>
+        <sys_mod_count>108</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>24f6cc95-8cf0-4a46-ae4d-2830932d5d0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7bcf3df4c3e7869037d1b7ddd40131eb"/>
@@ -983,10 +983,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 20:02:58</sys_created_on>
         <sys_id>bb0188e9c36f86d037d1b7ddd401318d</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>7141c6d6-bbcc-4aed-9491-4193015655b2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bb0188e9c36f86d037d1b7ddd401318d"/>
@@ -1138,10 +1138,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:16</sys_created_on>
         <sys_id>52aef57cc3a7869037d1b7ddd4013108</sys_id>
-        <sys_mod_count>108</sys_mod_count>
+        <sys_mod_count>114</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>d9129c92-aa54-4aaf-8219-f0ff25026bc6</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=52aef57cc3a7869037d1b7ddd4013108"/>
@@ -1306,10 +1306,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:16</sys_created_on>
         <sys_id>1aaeb57cc3a7869037d1b7ddd40131de</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>884e851e-7498-4316-88d2-acfa7fb2c9c7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1340,10 +1340,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 21:43:38</sys_created_on>
         <sys_id>2e1894edc3e7c6d037d1b7ddd40131cb</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>0ce3e706-0617-4f92-902b-26e74d87e0b2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1403,10 +1403,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:28:15</sys_created_on>
         <sys_id>3161caf4c32b869037d1b7ddd4013167</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>51</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>234943ad-adfe-47a3-8964-47c9218423b5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1437,10 +1437,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:16</sys_created_on>
         <sys_id>52aeb57cc3a7869037d1b7ddd40131e3</sys_id>
-        <sys_mod_count>59</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>98d6ffd5-665c-4558-ba1c-0a360bbc5e73</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1471,10 +1471,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:16</sys_created_on>
         <sys_id>5eaeb57cc3a7869037d1b7ddd40131da</sys_id>
-        <sys_mod_count>54</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>9dbea856-c4a3-466d-a94f-1ebf61114c01</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1506,10 +1506,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 22:31:40</sys_created_on>
         <sys_id>9a13e02dc32fc6d037d1b7ddd40131ea</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>de2be19c-946c-431b-9dc0-0396e29c5670</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1579,10 +1579,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:23:34</sys_created_on>
         <sys_id>c1508e3cc3e7869037d1b7ddd4013119</sys_id>
-        <sys_mod_count>51</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:51</sys_updated_on>
         <ui_id>50e7c21e-99c7-44af-96d9-86b44527ae2f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1673,7 +1673,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f47ae8f8c367069037d1b7ddd40131ee</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1681,7 +1681,7 @@
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=f47ae8f8c367069037d1b7ddd40131ee"/>
@@ -1889,10 +1889,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 21:44:00</sys_created_on>
         <sys_id>0838d8edc3e7c6d037d1b7ddd4013169</sys_id>
-        <sys_mod_count>48</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>7e3155d4-1cd8-4e00-a5eb-107a53fb7365</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0838d8edc3e7c6d037d1b7ddd4013169"/>
@@ -1992,10 +1992,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 20:03:08</sys_created_on>
         <sys_id>2e11042dc36f86d037d1b7ddd4013144</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>7141c6d6-bbcc-4aed-9491-4193015655b2</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2e11042dc36f86d037d1b7ddd4013144"/>
@@ -2082,10 +2082,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 20:03:08</sys_created_on>
         <sys_id>2e11c02dc36f86d037d1b7ddd40131ff</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>ab4bba5a-894f-4926-a92d-54bbc6940bc6</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2e11c02dc36f86d037d1b7ddd40131ff"/>
@@ -2172,10 +2172,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:24</sys_created_on>
         <sys_id>88be3d7cc3a7869037d1b7ddd40131bd</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>8cdac15e-3d87-4c61-866c-0491d2bbd4bb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=88be3d7cc3a7869037d1b7ddd40131bd"/>
@@ -2262,10 +2262,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:22:08</sys_created_on>
         <sys_id>d000ca78c3e7869037d1b7ddd40131de</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>24f6cc95-8cf0-4a46-ae4d-2830932d5d0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=d000ca78c3e7869037d1b7ddd40131de"/>
@@ -2352,10 +2352,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 15:08:21</sys_created_on>
         <sys_id>fc7a2cf8c367069037d1b7ddd401315b</sys_id>
-        <sys_mod_count>86</sys_mod_count>
+        <sys_mod_count>90</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>80bcf8ef-b84b-4337-b359-89c0bd4e34aa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fc7a2cf8c367069037d1b7ddd401315b"/>
@@ -2418,11 +2418,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 15:08:21</sys_created_on>
         <sys_id>f47a2cf8c367069037d1b7ddd401315d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 22:02:34</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:48</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value>category=inquiry^state=fd-scripted^assigned_to=fd-scripted^assignment_group=fd-scripted^watchlist=fd-scripted^parent_tech_support_number={{subflow.tech_support}}</value>
+        <value>category=inquiry^state=fd-scripted^assignment_group=fd-scripted^watchlist=fd-scripted^parent_tech_support_number={{subflow.tech_support}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=fc7a2cf8c367069037d1b7ddd401315b^sys_idNOT IN7fd6edf8c36f469037d1b7ddd40131b5"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -2430,13 +2430,13 @@
         <input_name>values</input_name>
         <instance>fc7a2cf8c367069037d1b7ddd401315b</instance>
         <referenced_table>sys_hub_action_instance</referenced_table>
-        <script>{"assignment_group":{"scriptActive":true,"script":"if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"IN\"){    \n    return getSysID(\u0027Techsupport_India\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"US\"){\n    return getSysID(\u0027Techsupport_USA\u0027);\n}\nif(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"GB\"){\n    return getSysID(\u0027Techsupport_UK\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"RU\"){\n    return getSysID(\u0027Techsupport_Russia\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"CN\"){\n    return getSysID(\u0027Techsupport_China\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"AU\"){\n    return getSysID(\u0027Techsupport_Australia\u0027);\n}\nelse{\nreturn getSysID(\u0027Techsupport_Others\u0027);\n}\n\nfunction getSysID(groupName){\n    var gr \u003d new GlideRecord(\u0027sys_user_group\u0027);\n    gr.addEncodedQuery(\u0027name\u003d\u0027+groupName);\n    gr.query();\n    while(gr.next())    {\n        return gr.getValue(\u0027sys_id\u0027).toString();\n    }\n}","savedValue":""},"state":{"scriptActive":true,"script":"return \u0027In Progress\u0027;","savedValue":"-- None --"},"watchlist":{"scriptActive":true,"script":"return fd_data.subflow_inputs.tech_support.requested_for.manager;","savedValue":""},"assigned_to":{"scriptActive":true,"script":"if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"IN\"){    \n    return getSysID(\u0027Techsupport_India\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"US\"){\n    return getSysID(\u0027Techsupport_USA\u0027);\n}\nif(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"GB\"){\n    return getSysID(\u0027Techsupport_UK\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"RU\"){\n    return getSysID(\u0027Techsupport_Russia\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"CN\"){\n    return getSysID(\u0027Techsupport_China\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"AU\"){\n    return getSysID(\u0027Techsupport_Australia\u0027);\n}\nelse{\nreturn getSysID(\u0027Techsupport_Others\u0027);\n}\n\n\nfunction getSysID(groupName){\n    var gr \u003d new GlideRecord(\u0027sys_user_grmember\u0027);\n    gr.addEncodedQuery(\u0027group.name\u003d\u0027+groupName+\u0027^user.titleLIKEdeveloper\u0027);\n    gr.query();\n    while(gr.next())    {\n        return gr.getValue(\u0027user\u0027).toString();\n    }\n}","savedValue":""}}</script>
+        <script>{"assignment_group":{"scriptActive":true,"script":"if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"IN\"){    \n    return getSysID(\u0027Techsupport_India\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"US\"){\n    return getSysID(\u0027Techsupport_USA\u0027);\n}\nif(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"GB\"){\n    return getSysID(\u0027Techsupport_UK\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"RU\"){\n    return getSysID(\u0027Techsupport_Russia\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"CN\"){\n    return getSysID(\u0027Techsupport_China\u0027);\n}\nelse if(fd_data.subflow_inputs.tech_support.requested_for.country \u003d\u003d \"AU\"){\n    return getSysID(\u0027Techsupport_Australia\u0027);\n}\nelse{\nreturn getSysID(\u0027Techsupport_Others\u0027);\n}\n\nfunction getSysID(groupName){\n    var gr \u003d new GlideRecord(\u0027sys_user_group\u0027);\n    gr.addEncodedQuery(\u0027name\u003d\u0027+groupName);\n    gr.query();\n    while(gr.next())    {\n        return gr.getValue(\u0027sys_id\u0027).toString();\n    }\n}","savedValue":""},"state":{"scriptActive":true,"script":"return \u0027In Progress\u0027;","savedValue":"-- None --"},"watchlist":{"scriptActive":true,"script":"return fd_data.subflow_inputs.tech_support.requested_for.manager;","savedValue":""}}</script>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 19:32:21</sys_created_on>
         <sys_id>7fd6edf8c36f469037d1b7ddd40131b5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 22:02:34</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:48</sys_updated_on>
     </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=fc7a2cf8c367069037d1b7ddd401315b"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=f47ae8f8c367069037d1b7ddd40131ee^sys_idNOT IN5cbe3d7cc3a7869037d1b7ddd40131d6"/>
@@ -2456,10 +2456,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:24</sys_created_on>
         <sys_id>5cbe3d7cc3a7869037d1b7ddd40131d6</sys_id>
-        <sys_mod_count>72</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>d9129c92-aa54-4aaf-8219-f0ff25026bc6</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5cbe3d7cc3a7869037d1b7ddd40131d6"/>
@@ -2624,10 +2624,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:24</sys_created_on>
         <sys_id>00be3d7cc3a7869037d1b7ddd40131c1</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>9dbea856-c4a3-466d-a94f-1ebf61114c01</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2658,10 +2658,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:24</sys_created_on>
         <sys_id>0cbe3d7cc3a7869037d1b7ddd40131c4</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>884e851e-7498-4316-88d2-acfa7fb2c9c7</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2693,10 +2693,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 22:32:18</sys_created_on>
         <sys_id>2733a82dc32fc6d037d1b7ddd40131cd</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>de2be19c-946c-431b-9dc0-0396e29c5670</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2766,10 +2766,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:16:24</sys_created_on>
         <sys_id>48be3d7cc3a7869037d1b7ddd40131d4</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>44</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>98d6ffd5-665c-4558-ba1c-0a360bbc5e73</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2800,10 +2800,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:28:17</sys_created_on>
         <sys_id>52614ef4c32b869037d1b7ddd4013189</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>234943ad-adfe-47a3-8964-47c9218423b5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2834,10 +2834,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-21 21:44:01</sys_created_on>
         <sys_id>c838d8edc3e7c6d037d1b7ddd40131a2</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:24</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>0ce3e706-0617-4f92-902b-26e74d87e0b2</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2897,10 +2897,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 21:23:51</sys_created_on>
         <sys_id>d9604a7cc3e7869037d1b7ddd40131e5</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:25</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:49</sys_updated_on>
         <ui_id>50e7c21e-99c7-44af-96d9-86b44527ae2f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2970,16 +2970,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"bc7a2cf8c367069037d1b7ddd40131ab","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Issue Flow">987aa47cc327069037d1b7ddd40131b9</plan_id>
-        <snapshot>f47ae8f8c367069037d1b7ddd40131ee</snapshot>
+        <snapshot>2b7c4f21c3a30ed037d1b7ddd401317b</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-19 15:08:22</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bc7a2cf8c367069037d1b7ddd40131ab</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-21 23:04:26</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:51:50</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>

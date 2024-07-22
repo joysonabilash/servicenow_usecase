@@ -44,7 +44,14 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
+        <reference_qual>javascript:var grpGR = new GlideRecord('sys_user_grmember');&#13;
+grpGR.addQuery('group',current.assignment_group);&#13;
+grpGR.query();&#13;
+var users='';&#13;
+while(grpGR.next()){&#13;
+users+=grpGR.user.sys_id + ",";&#13;
+}&#13;
+"sys_idIN" + users;</reference_qual>
         <reference_qual_condition/>
         <reference_type/>
         <spell_check>false</spell_check>
@@ -58,13 +65,13 @@
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>sys_dictionary_x_1393996_tech_s_0_tech_support_assigned_to</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-15 17:33:37</sys_updated_on>
+        <sys_updated_on>2024-07-22 08:03:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
