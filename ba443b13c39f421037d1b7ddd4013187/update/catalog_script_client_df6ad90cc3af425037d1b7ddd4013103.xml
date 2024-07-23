@@ -32,15 +32,6 @@
 		//phone = res.phone_number;
         g_form.setValue('contact_number', res.phone_number);
     });
-
-	// var requestedFor = g_form.getReference('requested_for',updatePhone);
-
-	// function updatePhone(requestedFor)
-	// {
-	// 	if(requestedFor){
-	// 	g_form.setValue('contact_number',phone);
-	// 	}
-	// }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -48,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>df6ad90cc3af425037d1b7ddd4013103</sys_id>
-        <sys_mod_count>38</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>Catalog - OnChange Requested For</sys_name>
         <sys_overrides/>
         <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
@@ -56,7 +47,7 @@
         <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
         <sys_update_name>catalog_script_client_df6ad90cc3af425037d1b7ddd4013103</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-17 12:09:19</sys_updated_on>
+        <sys_updated_on>2024-07-23 14:57:08</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
