@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="DELETE">
+        <contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains>
+        <role display_value="x_1393996_tech_s_0.user" name="x_1393996_tech_s_0.user">87447b13c39f421037d1b7ddd4013178</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 12:18:45</sys_created_on>
+        <sys_id>dca38830c3e7c29037d1b7ddd40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1393996_tech_s_0.user</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_user_role_contains_dca38830c3e7c29037d1b7ddd40131ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 12:18:45</sys_updated_on>
+    </sys_user_role_contains>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sys_user_role_contains_dca38830c3e7c29037d1b7ddd40131ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains"><sys_user_role_contains action="INSERT_OR_UPDATE"><contains display_value="canvas_user" name="canvas_user">8536f54bc713330072b211d4d8c26080</contains><role display_value="x_1393996_tech_s_0.user" name="x_1393996_tech_s_0.user">87447b13c39f421037d1b7ddd4013178</role><sys_class_name>sys_user_role_contains</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-19 12:18:45</sys_created_on><sys_id>dca38830c3e7c29037d1b7ddd40131ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>canvas_user.x_1393996_tech_s_0.user</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sys_user_role_contains_dca38830c3e7c29037d1b7ddd40131ec</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-19 12:18:45</sys_updated_on></sys_user_role_contains></record_update>]]></payload>
+        <payload_hash>750341105</payload_hash>
+        <record_name>canvas_user.x_1393996_tech_s_0.user</record_name>
+        <reverted_from/>
+        <source>557fd644c3afc25037d1b7ddd4013142</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 12:18:45</sys_created_on>
+        <sys_id>d8a38830c3e7c29037d1b7ddd40131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190caee2e6c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 12:18:45</sys_updated_on>
+        <type>Contained Role</type>
+        <update_guid>9ca3883063e7c2905674798d3b742cf3</update_guid>
+        <update_guid_history>9ca3883063e7c2905674798d3b742cf3:750341105</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-21 13:36:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role_contains">sys_user_role_contains</sys_db_object>
+        <sys_id>3bde0d5a13e9424a93a0019b6efee0e4</sys_id>
+        <sys_metadata>dca38830c3e7c29037d1b7ddd40131ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>canvas_user.x_1393996_tech_s_0.user</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sys_user_role_contains_dca38830c3e7c29037d1b7ddd40131ec</sys_update_name>
+        <sys_update_version display_value="sys_user_role_contains_dca38830c3e7c29037d1b7ddd40131ec">d8a38830c3e7c29037d1b7ddd40131f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-21 13:36:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

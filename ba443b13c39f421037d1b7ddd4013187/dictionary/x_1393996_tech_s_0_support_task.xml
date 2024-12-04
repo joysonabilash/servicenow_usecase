@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5a7022c4c3afc25037d1b7ddd401314c" extends="task" label="Support Task" max_length="40" name="x_1393996_tech_s_0_support_task" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Parent Request" max_length="32" name="parent_st" reference="x_1393996_tech_s_0_tech_support" type="reference"/>
+    </element>
+</database>

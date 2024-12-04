@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_1393996_tech_s_0.Audience for app tech-support</api_name>
+        <description/>
+        <name>Audience for app tech-support</name>
+        <role_names/>
+        <roles>3e447b13c39f421037d1b7ddd4013172,87447b13c39f421037d1b7ddd4013178</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-19 12:18:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04a34830c3e7c29037d1b7ddd4013130</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app tech-support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sys_ux_applicability_04a34830c3e7c29037d1b7ddd4013130</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-19 12:18:44</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

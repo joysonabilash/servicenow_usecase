@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Tech Support Form">aa45863fc3570e1037d1b7ddd40131b5</sc_cat_item>
+        <sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 19:13:03</sys_created_on>
+        <sys_id>44b5c633c3970e1037d1b7ddd401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Tech Support Form</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_44b5c633c3970e1037d1b7ddd401314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 19:13:03</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</application>
+        <file_path/>
+        <instance_id>b02dbff0eb8742d856eafddacad0cd76</instance_id>
+        <instance_name>dev275709</instance_name>
+        <name>sc_cat_item_catalog_44b5c633c3970e1037d1b7ddd401314f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Tech Support Form">aa45863fc3570e1037d1b7ddd40131b5</sc_cat_item><sc_catalog display_value="Technical Catalog">742ce428d7211100f2d224837e61036d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-16 19:13:03</sys_created_on><sys_id>44b5c633c3970e1037d1b7ddd401314f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Technical Catalog.Tech Support Form</sys_name><sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package><sys_policy/><sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope><sys_update_name>sc_cat_item_catalog_44b5c633c3970e1037d1b7ddd401314f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-16 19:13:03</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1581334618</payload_hash>
+        <record_name>Technical Catalog.Tech Support Form</record_name>
+        <reverted_from/>
+        <source>76443b13c39f421037d1b7ddd401318d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 19:13:03</sys_created_on>
+        <sys_id>c8b5c633c3970e1037d1b7ddd4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bcf6689b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 19:13:03</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>c8b5c6332a970e10bb8e8912dbe44652</update_guid>
+        <update_guid_history>c8b5c6332a970e10bb8e8912dbe44652:-1581334618</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Technical Catalog.Tech Support Form">fcaacebbc31b0e1037d1b7ddd401314f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-16 19:34:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>04e94a2c88a04900849278816c610000</sys_id>
+        <sys_metadata>44b5c633c3970e1037d1b7ddd401314f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Technical Catalog.Tech Support Form</sys_name>
+        <sys_package display_value="Tech support" source="x_1393996_tech_s_0">ba443b13c39f421037d1b7ddd4013187</sys_package>
+        <sys_parent display_value="">aa45863fc3570e1037d1b7ddd40131b5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Tech support">ba443b13c39f421037d1b7ddd4013187</sys_scope>
+        <sys_scope_delete display_value="">1abdd59b49374ea890f990ff00fe9610</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_44b5c633c3970e1037d1b7ddd401314f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_44b5c633c3970e1037d1b7ddd401314f">c8b5c633c3970e1037d1b7ddd4013153</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-16 19:34:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
